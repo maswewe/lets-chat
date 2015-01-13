@@ -22,7 +22,7 @@ A self-hosted chat app for small teams.
 Make sure you have [Node.js](https://github.com/joyent/node/wiki/Installation) and [MongoDB](http://www.mongodb.org/display/DOCS/Quickstart) installed.
 
 ```
-git clone -b release/0.3.0 https://github.com/sdelements/lets-chat.git
+git clone https://github.com/sdelements/lets-chat.git
 cd lets-chat
 npm install
 npm start
@@ -47,7 +47,7 @@ Make sure you have [Docker](https://www.docker.com/) installed. The following is
 ```
 docker pull mongo
 
-git clone -b release/0.3.0 https://github.com/sdelements/lets-chat.git
+git clone https://github.com/sdelements/lets-chat.git
 cd lets-chat
 docker build -t lets-chat .
 
@@ -67,7 +67,7 @@ You can now access the app at ```http://<boot2docker ip>:5000``` or ```http://lo
 Make sure you have a recent version of [Vagrant](https://www.vagrantup.com/) installed.
 
 ```
-git clone -b release/0.3.0 https://github.com/sdelements/lets-chat.git
+git clone https://github.com/sdelements/lets-chat.git
 cd lets-chat
 vagrant up
 ```
